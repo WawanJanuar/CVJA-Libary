@@ -5,6 +5,7 @@
   "dependencies": {
     "cra-template": "1.2.0",
     "dom": "^0.0.3",
+    "lucide-react": "^0.469.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.0.2",

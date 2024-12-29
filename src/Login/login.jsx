@@ -19,8 +19,8 @@ const Login = () => {
             SetPassword("")
             navigate('/')
         } else {
-            alert("Login gagal")
-            console.log("Login gagal")
+            alert("Login gagal user: wawanjanuar@gmail.id dan pass: 12345A")
+            console.log("Login gagal ")
             SetEmail("")
             SetPassword("")
         }
