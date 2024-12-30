@@ -1,5 +1,6 @@
 // LibraryPage.jsx
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import styles from './fiksi.module.css';
 import { VincWallp } from '../Resource/indeksgambar';
@@ -43,12 +44,13 @@ const Fiksi = () => {
 
   return (
     <div className={styles.container}>
-      {/* Header */}
+      {/* Header */}  
       <header className={styles.header}>
         <h1 className={styles.logo}>CVJA Library</h1>
         <nav className={styles.nav}>
-          <a href="#" className={styles.navLink}>Dashboard</a>
-          <a href="#" className={styles.navLink}>Daftar Buku</a>
+          <Link to="/" className={styles.navLink}>DashBoard</Link>
+          <Link to="/kategori-Nonfiksi" className={styles.navLink}>Non - Fiksi</Link>
+          
           <div className={styles.userSection}>
             <div className={styles.profilePic}>
               <img

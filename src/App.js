@@ -5,13 +5,14 @@ import Login from './login/Login';
 import Fiksi from './kategori/Fiksi';
 import Nav from './nav/Nav';
 import NonFiksi from './kategori/NonFiksi';
+import DashLogin from './dash-login/DashLogin';
 
 function App() {
   return (
     <Router>
       <div>
         <Routes>
-          <Route path='/' element={<Fiksi />} />
+          <Route path='/' element={<DashLogin />} />
           <Route path='/login' element={<Login />} />
           <Route path='/kategori-fiksi' element={<Fiksi />} />
           <Route path='/kategori-Nonfiksi' element={<NonFiksi />} />

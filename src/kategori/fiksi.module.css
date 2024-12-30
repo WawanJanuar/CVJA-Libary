@@ -25,12 +25,14 @@
 
 .navLink {
   text-decoration: none;
+  font-size: 20px;
   color: #333;
-  transition: color 0.2s;
+  transition: color 9s;
 }
 
 .navLink:hover {
-  color: #6b46c1;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .userSection {
