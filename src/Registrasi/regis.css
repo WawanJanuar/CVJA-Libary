@@ -1,0 +1,80 @@
+.regis-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+}
+
+.terms {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+.terms a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.regis-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.regis-button:hover {
+  background-color: #0077cc;
+}
+
+.profile-image {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px; 
+  object-fit: cover;
+}
+.regis-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  padding: 20px;
+}
