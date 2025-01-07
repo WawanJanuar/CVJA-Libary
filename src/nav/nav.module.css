@@ -1,0 +1,33 @@
+nav {
+    padding: 1rem;
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Logo {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.Link {
+    text-decoration: none;
+    color: #333;
+    align-items: end;
+}
+
+.title {
+    font-size: 2rem;
+    color: #444;
+}

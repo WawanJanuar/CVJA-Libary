@@ -1,0 +1,180 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    overflow: hidden;
+  }
+  
+  .header {
+    position: absolute;
+    top: 20px;
+    left: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: calc(100% - 96px);
+    padding-right: 50px;
+  }
+  
+  .header h1 {
+    font-family: "Nico Moji", sans-serif;
+    font-size: 26px;
+    color: black;
+    margin-right: auto; 
+  }
+  
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .menu span {
+    font-family: "Inter", sans-serif;
+    font-size: 23px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Styling */
+  .menu .dropdown {
+    position: relative;
+  }
+  
+  .menu .dropdown-menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu .dropdown-menu span {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Profile Icon */
+  .profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    border: 1px solid #000; 
+    padding: 1px; 
+    object-fit: cover; 
+    cursor: pointer;
+  }
+  
+  
+  /* Search Bar Styling */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 200px;
+    overflow: hidden;
+    background: white;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
+  
+  .search-bar button {
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Menambahkan relative positioning */
+    right: 20px; /* Geser ikon ke kiri 10px */
+  }
+  
+  
+  .search-bar button:hover {
+    background: #f0f0f0;
+  }
+  
+  /* Content Styling */
+  .content {
+    position: absolute;
+    top: 200px;
+    left: 850px;
+  }
+  
+  .greeting {
+    font-family: "Irish Grover", cursive;
+    font-size: 96px;
+    color: black;
+    line-height: 1.2;
+  }
+  
+  .welcome-text {
+    margin-top: 20px;
+    font-family: "Inika", serif;
+    font-size: 18px;
+    color: black;
+    line-height: 25px;
+    position: relative;
+  }
+  
+  .view-books-btn {
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 200px;
+    height: 50px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .view-books-btn:hover {
+    background: #f3f3f3;
+  }
+  
+  /* Vincent Image Styling */
+  .vincent {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 40%;
+    height: 119%;
+    margin: 15px 0 0 50px;
+  }
+  
