@@ -1,0 +1,30 @@
+.navBarDetail{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.backButtonDetail img {
+    width: 40px;
+    height: 40px;
+}
+  
+.backButtonDetail {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+  
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 25px;
+}
+  

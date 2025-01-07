@@ -1,0 +1,135 @@
+  .koleksiBukuContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    min-height: 100vh;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    padding-left: 30px;
+  }
+  
+  .bookCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  /* Card Container */
+.bookCard {
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 30px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Card Body */
+  .bookCardBody {
+    display: flex;
+    padding: 15px;
+  }
+  
+  /* Left Column */
+  .bookImage {
+    width: 140px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Right Column */
+  .bookCardRight {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    height: 100%;
+  }
+  
+
+  .dueDate {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px 0px 10px 10px;
+    text-align: end;
+  }
+  
+  .bookTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 10px 0;
+  }
+  
+  .bookAuthor {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 10px 0;
+  }
+  
+  /* Action Buttons */
+  .bookActions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    gap: 10px;
+  }
+  
+  .actionButton {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .actionButton:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Style for Add Button */
+  .tambahBookCard {
+    display: flex; 
+    justify-content: center; 
+    align-items: center ;
+    width: 350px;
+    margin: 30px 20px;
+  }
+
+  .addButton {
+    background-color: #b3d7ff;
+    border: none;
+    border-radius: 50%;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #80bfff;
+  }
+  
+  /* Ensuring proper positioning of Add Button */
+  .bookCardContainer > .addButton:nth-child(2) {
+    /* If only 1 book card exists, "+" will move to position 2 */
+    order: 2;
+  }
+  
+  .bookCardContainer > .addButton:nth-child(3) {
+    /* If 2 book cards exist, "+" will move to position 3 */
+    order: 3;
+  }
+  
+  
